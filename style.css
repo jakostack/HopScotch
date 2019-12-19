@@ -1,0 +1,51 @@
+body { font-size: 14px; font-family: "Product Sans", "Product Sans Black", "Product Sans Black Italic", "Product Sans Bold", "Product Sans Bold Italic", "Product Sans Italic", "Product Sans Light", "Product Sans Light Italic", "Product Sans Medium", "Product Sans Medium Italic", "Product Sans Thin", "Product Sans Thin Italic";color: #0082FF; background-color: #ffffff; }
+* { margin: 0; padding: 0; box-sizing: border-box;}
+a { color: #666; font-weight: 500; text-decoration: none; }
+a:hover { text-decoration: underline; }
+#container { width: 450px; min-height: 300px; max-height: 800px; background: #ffffff; }
+.newchallengebtn { position: relative; width: 450px; height: 30px; background: #ffffff;vertical-align: middle;}
+#hopscounter { position: relative; font-size: 20px; font-weight: 300; text-align: center; padding-top: 35px; color: #0082FF;}
+header { width: 100%; height: 40px; padding:0 10px; font-size: 18px; text-align: center; columns: #000000;; background: #ffffff; line-height: 40px; -webkit-user-select: none; user-select: none; }
+header div { position: relative; }
+#delete-btn { position: absolute; right: 0%; cursor: pointer; }
+#delete-btn-icon { height: 50px; width: 200px ;position: relative; opacity: 0;}
+#delete-btn:hover img { opacity: 0; }
+hr { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 0.3px;
+    color: #e2e2e2;
+  } 
+
+#tab-response-content { width: 300px; margin: 0 auto; text-align: center; padding-top: 20px; }
+#tab-response-content img { width: 96px; }
+#response-text { margin-top: 10px; font-size: 16px; font-weight: 300; }
+#tabs-content { width: 100%; position: relative; background: #ffffff; overflow: hidden; box-shadow: 0 1px 1px 0 rgb(202, 202, 202); -webkit-user-select: none; user-select: none; }
+#tabs-content span { width: 225px; height: 30px; color: #444444; display: inline-block; line-height: 30px; background: #ffffff; font-size: 14px; text-align: center; position: relative; overflow: hidden; cursor: pointer; }
+#tab-bottom-slider { width: 225px; height: 3px; position: absolute; bottom: 0; left: 0; background: #0082FF; transition: all 0.2s; }
+
+.hopCounter { width: 450px; height: 100px; background-image: url(popover.svg)}
+#newchallengebtn { 
+    text-align: right; 
+    padding-top: 15px;
+    padding-right: 30px;
+    font-weight: 300; 
+    color: #0082ff;}
+.list-header { padding: 2px; font-weight: 300; border-bottom: 10px; color: #0082ff; }
+.tab-record-list { list-style: none; max-height: 400px; overflow-y: scroll; }
+#record-list-1.tab-record-list { display: none; }
+.tab-record-list li { font-size: 13px; padding: 8px 10px; border-top:1px solid #e2e2e2; } 
+.tab-record-list li:first-child { border-top: none; }
+.tab-record-list img { width: 16px; position: relative; top: 1px; margin-right: 5px; }
+.tab-record-list a { width: 360px; margin-right: 10px; overflow: hidden; text-align: left; text-overflow: ellipsis; white-space: nowrap; }
+.tab-record-list span { color: #aaa; }
+.tab-record-list a, .tab-record-list span { display: inline-block; vertical-align: top;  }
+
+.tab-record-list::-webkit-scrollbar {width: 2px;}
+.tab-record-list::-webkit-scrollbar-track {background: #f8fafb;}
+.tab-record-list::-webkit-scrollbar-thumb {background: #bdc3c7;}
+.tab-record-list::-webkit-scrollbar-thumb:hover {background: #bbb;}
+
+
